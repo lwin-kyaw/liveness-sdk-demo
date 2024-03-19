@@ -32,20 +32,6 @@ const livenessTheme: LivenessUIConfig = {
     logoLight: "https://images.web3auth.io/web3auth-logo-w.svg",
     logoDark: "https://images.web3auth.io/web3auth-logo-w.svg",
   },
-  languages: [
-    {
-      name: "German",
-      value: "de",
-      texts: {
-        startScreenBeginCheckText: "Start Lebenderkennung",
-        tooFarCaptionText: "Zu Weit",
-        hintCenterFaceInstructionText: "Zentrieren Sie Ihr Gesicht",
-        hintCenterFaceText: "Zentrieren Sie Ihr Gesicht",
-        photosensitivityWarningBodyText: "Seien Sie vorsichtig, wenn Sie lichtempfindlich sind.",
-        photosensitivityWarningHeadingText: "Warnung"
-      },
-    }
-  ]
 };
 
 const livenessRef = ref<LivenessUI>(new LivenessUI(livenessTheme));
