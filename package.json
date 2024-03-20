@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@web3auth/livenesscheck": "file:web3auth-livenesscheck-0.1.0.tgz",
+    "@web3auth/livenesscheck": "file:web3auth-livenesscheck-0.2.0.tgz",
     "vue": "^3.4.21"
   },
   "devDependencies": {
