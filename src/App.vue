@@ -9,7 +9,7 @@ const livenessTheme: LivenessUIConfig = {
   defaultLanguage: "de",
   uiColorMode: themeRef.value,
   livenessConfidenceThreashold: 80,
-  // displayMode: "Component",
+  enableCaptcha: false,
   onCancelled: () => {
     console.log("on analysis cancelled")
   },
